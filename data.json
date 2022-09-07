@@ -1,0 +1,23 @@
+{
+    "head" : {
+
+    },
+    "body" : {
+        "profile" : {
+
+        },
+        "links" : {
+            "website" : {
+                "avatar" : "todo",
+                "tags" : "todo",
+                "description" : "todo"
+            },
+            "email" : {
+
+            }
+        },
+        "footer" : {
+            "copyright" : "todo"
+        }
+    }
+}
