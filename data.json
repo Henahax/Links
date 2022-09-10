@@ -4,16 +4,22 @@
     },
     "body" : {
         "profile" : {
-
+            "avatar" : "todo",
+            "tags" : "todo",
+            "description" : "todo"
         },
         "links" : {
             "website" : {
-                "avatar" : "todo",
-                "tags" : "todo",
-                "description" : "todo"
+                "link" : "https://henahax.de"
             },
             "email" : {
-
+                "link" : "mailto:mail@henahax.de"
+            },
+            "twitter" : {
+                "link" : "https://twitter.henahax.de"
+            },
+            "instagram" : {
+                "link" : "https://instagram.henahax.de"
             }
         },
         "footer" : {
