@@ -10,16 +10,20 @@
         },
         "links" : {
             "website" : {
-                "link" : "https://henahax.de"
+                "link" : "https://henahax.de",
+                "description" : "Webseite"
             },
             "email" : {
-                "link" : "mailto:mail@henahax.de"
+                "link" : "mailto:mail@henahax.de",
+                "description" : "E-Mail"
             },
             "twitter" : {
-                "link" : "https://twitter.henahax.de"
+                "link" : "https://twitter.henahax.de",
+                "description" : "Twitter"
             },
             "instagram" : {
-                "link" : "https://instagram.henahax.de"
+                "link" : "https://instagram.henahax.de",
+                "description" : "Instagram"
             }
         },
         "footer" : {
