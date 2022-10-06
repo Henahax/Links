@@ -24,6 +24,18 @@
             "instagram" : {
                 "link" : "https://instagram.henahax.de",
                 "description" : "Instagram"
+            },
+            "steam" : {
+                "link" : "https://steam.henahax.de",
+                "description" : "Steam"
+            },
+            "discord" : {
+                "link" : "https://discordapp.com/users/128418924084723712",
+                "description" : "Discord"
+            },
+            "github" : {
+                "link" : "https://github.henahax.de",
+                "description" : "GitHub"
             }
         },
         "footer" : {
