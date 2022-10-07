@@ -1,0 +1,65 @@
+{
+    "discord": {
+        "description": "Discord",
+        "class": [
+            "fa-brands",
+            "fa-discord"
+        ]
+    },
+    "email": {
+        "description": "E-Mail",
+        "class": [
+            "fa-solid",
+            "fa-envelope"
+        ]
+    },
+    "github": {
+        "description": "GitHub",
+        "class": [
+            "fa-brands",
+            "fa-github"
+        ]
+    },
+    "instagram": {
+        "description": "Instagram",
+        "class": [
+            "fa-brands",
+            "fa-instagram"
+        ]
+    },
+    "linkedin": {
+        "description": "LinkedIn",
+        "class": [
+            "fa-brands",
+            "fa-linkedin"
+        ]
+    },
+    "steam": {
+        "description": "Steam",
+        "class": [
+            "fa-brands",
+            "fa-steam"
+        ]
+    },
+    "twitter": {
+        "description": "Twitter",
+        "class": [
+            "fa-brands",
+            "fa-twitter"
+        ]
+    },
+    "website": {
+        "description": "Webseite",
+        "class": [
+            "fa-solid",
+            "fa-globe"
+        ]
+    },
+    "xing": {
+        "description": "Xing",
+        "class": [
+            "fa-brands",
+            "fa-xing"
+        ]
+    }
+}

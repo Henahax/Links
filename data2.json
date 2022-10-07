@@ -1,0 +1,39 @@
+{
+    "head" : {
+        
+    },
+    "body" : {
+        "colors" : {
+            "background" : "#F0F2F5",
+            "text" : "black"
+        },
+        "profile" : {
+            "avatar" : "https://pbs.twimg.com/profile_images/478281171445366784/JTIpV-fg_400x400.png",
+            "name" : "Tobias Halupczok",
+            "tags" : "Software-Entwicklung | Heimserver",
+            "description" : ""
+        },
+        "links" : {
+            "website" : {
+                "link" : "https://henahax.de"
+                        },
+            "email" : {
+                "link" : "mailto:mail@henahax.de",
+                "description" : "E-Mail"
+            },
+            "linkedin" : {
+                "link" : "todo",
+                "description" : "LinkedIn"
+            },
+            "xing" : {
+                "link" : "todo",
+                "description" : "Xing"
+            },
+            "github" : {
+                "link" : "https://github.henahax.de",
+                "description" : "GitHub"
+            }
+        },
+        "footer" : "© 2022 - henahax.de"
+    }
+}

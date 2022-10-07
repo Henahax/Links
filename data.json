@@ -1,12 +1,17 @@
 {
     "head" : {
-
+        
     },
     "body" : {
+        "colors" : {
+            "background" : "#292929",
+            "text" : "white"
+        },
         "profile" : {
-            "avatar" : "todo",
-            "tags" : "todo",
-            "description" : "todo"
+            "avatar" : "https://pbs.twimg.com/profile_images/478281171445366784/JTIpV-fg_400x400.png",
+            "name" : "@henahax",
+            "tags" : "Software-Entwicklung | Heimserver",
+            "description" : ""
         },
         "links" : {
             "website" : {
@@ -38,8 +43,6 @@
                 "description" : "GitHub"
             }
         },
-        "footer" : {
-            "copyright" : "todo"
-        }
+        "footer" : "© 2022 - henahax.de"
     }
 }

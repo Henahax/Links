@@ -1,52 +1,68 @@
 var data = JSON.parse("");
+var logos = JSON.parse("");
+
 function generatePage() {
-    $.getJSON("data.json", function (json) {
-        data = json;
-        generateHead();
-        generateProfile();
-        generateLinks();
-        generateFooter();
-    })
-        .fail(function (jqXHR, textStatus, error) {
+    $.getJSON("logos.json", function (jsonLogos) {
+        logos = jsonLogos;
+        $.getJSON("data.json", function (jsonData) {
+            data = jsonData;
+            setColors();
+            generateProfile();
+            generateLinks();
+            generateFooter();
+        })
+            .fail(function (jqXHR, textStatus, error) {
+                console.log("Post error: " + error);
+            });
+    }).fail(function (jqXHR, textStatus, error) {
         console.log("Post error: " + error);
     });
 }
-function generateHead() {
-    $('head').append('todo');
+function setColors() {
+    $("body,html").css("background-color", data.body.colors.background);
+    $("body,html").css("color", data.body.colors.text);
 }
+
 function generateProfile() {
     $.each(data.body.profile, function (key, val) {
-        var profileItem = $("<div></div>");
-        profileItem.addClass(key.toString());
-        profileItem.contents = val;
-        $('#profile').append(profileItem);
+        if (key == "avatar") {
+            var profileItem = $("<img></img>");
+            profileItem.addClass(key);
+            profileItem.attr("src", val)
+            $('#profile').append(profileItem);
+        } else {
+            var profileItem = $("<div></div>");
+            profileItem.addClass(key);
+            profileItem.append(val);
+            $('#profile').append(profileItem);
+        }
     });
 }
+
 function generateLinks() {
-    $.each(data.body.links, function (key, val) {
+
+    $.each(data.body.links, function (keyData, keyVal) {
         var link = $("<a></a>");
         link.addClass("button");
-        link.addClass(key.toString());
-        link.attr("href", val.link);
-        var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-        svg.setAttribute("xmlns", "http://www.w3.org/2000/svg");
-        svg.setAttribute("width", "20");
-        svg.setAttribute("height", "20");
-        switch (key) {
-            case "discord":
-                svg.setAttribute("viewBox", "0 0 640 512");
-                break;
-            default:
-                svg.setAttribute("viewBox", "0 0 512 512");
-        }
-        var path = document.createElementNS("http://www.w3.org/2000/svg", 'path');
-        path.setAttribute("d", "");
-        svg.append(path);
-        link.append(svg);
-        link.append(val.description);
+        link.addClass(keyData);
+        link.attr("href", keyVal.link);
+
+        var profileItem = $("<i></i>");
+
+        $.each(logos, function (keyLogos, valLogos) {
+            if (keyLogos == keyData) {
+                $.each(valLogos.class, function (keyClasses, valClasses) {
+                    profileItem.addClass(valClasses);
+                });
+                link.append(profileItem);
+                link.append(valLogos.description);
+            }
+        });
+
         $("#links").append(link);
     });
 }
+
 function generateFooter() {
-    $('footer').append('todo');
+    $('#footer').append(data.body.footer);
 }
