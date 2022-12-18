@@ -3,7 +3,6 @@ body {
     text-align: center;
     color: white;
     letter-spacing: .1px;
-
 }
 
 .profile {
@@ -11,24 +10,32 @@ body {
 }
 
 .avatar {
+    margin: 1rem;
     vertical-align: middle;
     width: 8rem;
     height: 8rem;
     border-radius: 50%;
-    padding: 1rem;
 }
 
 .name {
-    padding: 1rem;
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 800;
+    margin: 1rem;
+}
+
+.tags{
+    margin: 1rem;
+}
+
+.description{
+    margin: 1rem;
 }
 
 .links {
     display: grid;
     justify-content: center;
-    padding: 1rem;
     gap: 1rem;
+    margin: 1rem;
 }
 
 .button {
@@ -42,6 +49,12 @@ body {
     text-decoration: none;
     font-weight: 700;
     font-size: 1.125rem;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover{
+    filter: brightness(1.2)
 }
 
 .button i {
@@ -99,5 +112,5 @@ body {
 }
 
 .footer {
-    margin: 1rem;
+    margin: 2rem;
 }

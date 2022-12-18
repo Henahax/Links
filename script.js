@@ -42,10 +42,10 @@ function generateProfile() {
 function generateLinks() {
 
     $.each(data.body.links, function (keyData, keyVal) {
-        var link = $("<a></a>");
+        var link = $("<button type='button'></button>");
         link.addClass("button");
         link.addClass(keyData);
-        link.attr("href", keyVal.link);
+        link.attr("onclick", "javascript:location.href='" + keyVal.link + "'");
 
         var profileItem = $("<i></i>");
 
