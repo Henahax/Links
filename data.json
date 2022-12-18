@@ -15,36 +15,28 @@
         },
         "links" : {
             "website" : {
-                "link" : "https://henahax.de",
-                "description" : "Webseite"
+                "link" : "https://henahax.de"
             },
             "email" : {
-                "link" : "mailto:mail@henahax.de",
-                "description" : "E-Mail"
+                "link" : "mailto:mail@henahax.de"
             },
             "twitter" : {
-                "link" : "https://twitter.henahax.de",
-                "description" : "Twitter"
+                "link" : "https://twitter.henahax.de"
             },
             "instagram" : {
-                "link" : "https://instagram.henahax.de",
-                "description" : "Instagram"
+                "link" : "https://instagram.henahax.de"
             },
             "steam" : {
-                "link" : "https://steam.henahax.de",
-                "description" : "Steam"
+                "link" : "https://steam.henahax.de"
             },
             "discord" : {
-                "link" : "https://discordapp.com/users/128418924084723712",
-                "description" : "Discord"
+                "link" : "https://discordapp.com/users/128418924084723712"
             },
             "github" : {
-                "link" : "https://github.henahax.de",
-                "description" : "GitHub"
+                "link" : "https://github.henahax.de"
             },
             "onlyfans" : {
-                "link" : "https://onlyfans.henahax.de",
-                "description" : "Onlyfansxxx"
+                "link" : "https://onlyfans.henahax.de"
             }
         },
         "footer" : "© 2022 - henahax.de"
