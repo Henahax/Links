@@ -6,11 +6,10 @@ body {
 }
 
 .profile {
-    margin: 1rem;
+    margin: 2rem;
 }
 
 .avatar {
-    margin: 1rem;
     vertical-align: middle;
     width: 8rem;
     height: 8rem;
