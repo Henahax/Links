@@ -1,0 +1,48 @@
+{
+    "head" : {
+        
+    },
+    "body" : {
+        "colors" : {
+            "background" : "#292929",
+            "text" : "white"
+        },
+        "profile" : {
+            "avatar" : "https://pbs.twimg.com/profile_images/478281171445366784/JTIpV-fg_400x400.png",
+            "name" : "@henahax",
+            "tags" : "Software-Entwicklung | Heimserver",
+            "description" : ""
+        },
+        "links" : {
+            "website" : {
+                "link" : "https://example.com",
+                "description" : "Webseite"
+            },
+            "email" : {
+                "link" : "mailto:mail@example.com",
+                "description" : "E-Mail"
+            },
+            "twitter" : {
+                "link" : "https://twitter.example.com",
+                "description" : "Twitter"
+            },
+            "instagram" : {
+                "link" : "https://instagram.example.com",
+                "description" : "Instagram"
+            },
+            "steam" : {
+                "link" : "https://steamexample.com",
+                "description" : "Steam"
+            },
+            "github" : {
+                "link" : "https://github.example.com",
+                "description" : "GitHub"
+            },
+            "onlyfans" : {
+                "link" : "https://onlyfans.example.com",
+                "description" : "Onlyfans"
+            }
+        },
+        "footer" : "© 2023 - example.com"
+    }
+}
