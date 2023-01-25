@@ -4,49 +4,45 @@
     },
     "body" : {
         "colors" : {
-            "background" : "#292929",
-            "text" : "white"
+            "background" : "#F0F2F5",
+            "text" : "black"
         },
         "profile" : {
             "avatar" : "https://pbs.twimg.com/profile_images/478281171445366784/JTIpV-fg_400x400.png",
-            "name" : "@henahax",
+            "name" : "Tobias Halupczok",
             "tags" : "Software-Entwicklung | Heimserver",
             "description" : ""
         },
         "links" : {
             "website" : {
-                "link" : "https://henahax.de",
+                "link" : "https://example.com",
                 "description" : "Webseite"
             },
             "email" : {
-                "link" : "mailto:mail@henahax.de",
+                "link" : "mailto:mail@example.com",
                 "description" : "E-Mail"
             },
             "twitter" : {
-                "link" : "https://twitter.henahax.de",
+                "link" : "https://twitter.example.com",
                 "description" : "Twitter"
             },
             "instagram" : {
-                "link" : "https://instagram.henahax.de",
+                "link" : "https://instagram.example.com",
                 "description" : "Instagram"
             },
             "steam" : {
-                "link" : "https://steam.henahax.de",
+                "link" : "https://steamexample.com",
                 "description" : "Steam"
             },
-            "discord" : {
-                "link" : "https://discordapp.com/users/128418924084723712",
-                "description" : "Discord"
-            },
             "github" : {
-                "link" : "https://github.henahax.de",
+                "link" : "https://github.example.com",
                 "description" : "GitHub"
             },
             "onlyfans" : {
-                "link" : "https://onlyfans.henahax.de",
-                "description" : "Onlyfansxxx"
+                "link" : "https://onlyfans.example.com",
+                "description" : "Onlyfans"
             }
         },
-        "footer" : "© 2022 - henahax.de"
+        "footer" : "© 2023 - example.com"
     }
 }
