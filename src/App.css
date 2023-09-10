@@ -1,0 +1,125 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  color-scheme: light dark;
+  background-color: rgb(248, 249, 250);
+  color: rgb(33,37,41);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Dark mode variables go here */
+    color: rgba(248, 249, 250);
+    background-color: rgba(33, 37, 41);
+  }
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#profile{
+  margin: auto auto 2rem auto;
+}
+
+.avatar{
+  vertical-align: middle;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+h1{
+  font-size: xx-large;
+  margin: .5rem;
+}
+
+h2{
+  font-size: large;
+  margin: .5rem;
+}
+
+h3{
+  font-size: medium;
+  margin: .5rem;
+}
+
+ul{
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+.link{
+  display: flex;
+  height: 3rem;
+  text-decoration: none;
+  border-radius: .5rem;
+}
+
+.link:hover{
+  opacity: 0.5;
+}
+
+.icon{
+  margin: auto .25rem auto auto;
+}
+
+.text{
+  margin: auto auto auto .25rem
+}
+
+.website{
+  background-color: #696969;
+  color: rgba(248, 249, 250);
+}
+
+.email{
+  background-color: #0072C6;
+  color: rgba(248, 249, 250);
+}
+
+.twitter{
+  background-color: #14171A;
+  color: rgba(248, 249, 250);
+}
+
+.instagram{
+  background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
+  color: rgba(248, 249, 250);
+}
+
+.steam{
+  background-color: #171a21;
+  color: rgba(248, 249, 250);
+}
+
+.discord{
+  background-color: #5865f2;
+  color: rgba(248, 249, 250);
+}
+
+.github{
+  background-color: #000;
+  color: rgba(248, 249, 250);
+}
+
+.onlyfans{
+  background-color: white;
+  color: #00AFF0;
+}
